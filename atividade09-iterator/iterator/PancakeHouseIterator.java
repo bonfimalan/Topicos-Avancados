@@ -14,7 +14,7 @@ public class PancakeHouseIterator implements Iterator<MenuItem> {
 
     @Override
     public boolean hasNext() {
-        return position < items.size() && items.get(0) != null;
+        return position < items.size();
     }
 
     @Override
